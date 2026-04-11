@@ -1,7 +1,3 @@
-/* =========================
-   LEARNLITECOIN BRAND STYLES
-========================= */
-
 :root {
   --primary-blue: #2F6BFF;
   --glow-blue: #4DA3FF;
@@ -10,11 +6,6 @@
   --text-white: #FFFFFF;
   --text-gray: #A0A8C0;
 }
-
-/* =========================
-   GLOBAL
-========================= */
-
 body {
   margin: 0;
   padding: 0;
@@ -23,32 +14,19 @@ body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
 }
-
-/* =========================
-   TYPOGRAPHY
-========================= */
-
 h1, h2, h3, h4 {
   color: var(--text-white);
   margin-bottom: 10px;
 }
-
 p {
   color: var(--text-gray);
 }
-
 .highlight {
   color: var(--primary-blue);
 }
-
 .glow {
   text-shadow: 0 0 10px var(--primary-blue);
 }
-
-/* =========================
-   NAVBAR
-========================= */
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -68,30 +46,18 @@ nav a {
 nav a:hover {
   color: var(--primary-blue);
 }
-
-/* =========================
-   HERO SECTION
-========================= */
-
 .hero {
   text-align: center;
   padding: 100px 20px;
 }
-
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 20px;
 }
-
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 30px;
 }
-
-/* =========================
-   BUTTONS
-========================= */
-
 .btn {
   display: inline-block;
   background: linear-gradient(90deg, var(--primary-blue), var(--glow-blue));
@@ -107,24 +73,13 @@ nav a:hover {
   box-shadow: 0 0 20px var(--glow-blue);
   transform: translateY(-2px);
 }
-
-/* =========================
-   SECTIONS
-========================= */
-
 .section {
   padding: 80px 40px;
   text-align: center;
 }
-
 .section-dark {
   background-color: var(--card-bg);
 }
-
-/* =========================
-   CARDS
-========================= */
-
 .card {
   background: var(--card-bg);
   padding: 30px;
@@ -136,29 +91,17 @@ nav a:hover {
   border: 1px solid #1c233a;
   transition: 0.3s;
 }
-
 .card:hover {
   border-color: var(--primary-blue);
   box-shadow: 0 0 20px rgba(47, 107, 255, 0.2);
 }
-
-/* =========================
-   LINKS
-========================= */
-
 a {
   color: var(--primary-blue);
   text-decoration: none;
 }
-
 a:hover {
   color: var(--glow-blue);
 }
-
-/* =========================
-   FOOTER
-========================= */
-
 footer {
   padding: 40px;
   text-align: center;
